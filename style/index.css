@@ -57,7 +57,7 @@ body {
 }
 
 .header {
-    background-color: black;
+    background-color: #3DB2FF;
     height:150px;
     display: flex;
     justify-content: flex-start;
@@ -78,15 +78,6 @@ body {
     font-size: 65px;
     padding-left: 15%;
     padding-top:5%;
-   
-}
-.innerheader {
-    display: flex;
-
-}
-
-.linkscontainer {
-    width:50%
 }
 
 
@@ -98,55 +89,87 @@ body {
 
     
 }
+.linkscontainer {
+    width:50%;
+    background-color: #3DB2FF;
+}
 
 nav a {
     padding-inline: 5%;
-}
-    
-
-
-
-    
-    
-
-
-
-/* navigation links */
-
-
-
-
-.first {
-    height: 500px;
-    width: 400px;
-    margin: 1%;
-    padding-left:4%;
-    
+    background-color: #fff;
+    border: 6px solid #3DB2FF;
+    text-decoration: none;
+    color:black
 }
 
+.Home {
+    border: 4px solid red;
+    ;
+}
 
+.About {
+    border: 4px solid red;
+}
 
-/* The right side*/
+.Contact {
+    border: 4px solid red;
+}
 
+.Projects{
+    border: 4px solid red;
+  
+}
 
-h2 {
+.middlecontainer {
     display: flex;
     justify-content: center;
-    position:relative;
-    top: 250px;
     
 }
 
+.middle {
+    width: 2000px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 2%
+}
+.middlesection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     
-.story {
-    font-size: 20px;
-    text-align: center;
-    position:relative;
-    top: 250px;
-    color: brown;
-    
+
 }
 
+ .middlesection img {
+    width:795px;
+    height: 500px;
+    padding-left: 50px;
+}
+
+.project {
+    padding-left: 10%;
+}
+
+.project h2, p {
+    padding-top: 10%;
+    font-size: 150%;
+    
+}
+.project p{
+    font-family: 'Patua One', cursive;
+}
+
+h2 a {
+    background-color: red;
+    border:2px solid black;
+    color: white;
+    text-decoration: none;
+    font-family: 'Rampart One', cursive;
+}
+
+    
 /*bottom pictures*/
 
 .topgallery {
@@ -188,8 +211,8 @@ h3 {
     display: flex;
     justify-content: center;
     position: relative;
-    top: 60px;
-    color: #fff
+    top: 40px;
+    color: white;
     
 
 
@@ -212,8 +235,8 @@ h3 {
 .lastbox {
     display: flex;
     justify-content: center;
-    background-color: black;
-    border: 90px solid black ;
+    background-color: #3DB2FF;
+    border:40px #3DB2FF solid;
     padding: 20px;
     color: #fff;
 }
@@ -222,56 +245,6 @@ h3 {
 
 /*numbers*/
 
-.numbers {
-    display: flex;
-    color: #fff
-
-}
-
-.one {
-    position: relative;
-    left: 200px;
-}
-
-.two {
-    position: relative;
-    left: 670px;
-}
-
-.Three {
-    position: relative;
-    left: 1125px;
-}
-
-.Four {
-    position: relative;
-    left: 1555px;
-}
-
-.Five {
-    position: relative;
-    top: 680px;
-    left:80px;
-}
-
-.Six {
-    position: relative;
-    left: 550px;
-    top:680px
-}
-
-.Seven {
-    position: relative;
-    left: 980px;
-    top:680px;
-}
-
-.Eight {
-    position: relative;
-    left: 1450px;
-    top:680px;
-
-}
 
 
 
