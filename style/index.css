@@ -46,31 +46,65 @@ table {
 
 * {
     font-family: 'Teko', sans-serif;
-    max-width:100%
-
+    max-width: 100%
     
+
 
 }
 
 body {
-    background-color: #219ebc;
+    background-color: white
 }
 
 .header {
-    background-color: red;
-    border: 20px solid red 
+    background-color: black;
+    height:150px;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.innerheader {
+    width:50%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 
-
-
-h1 {
+.innerheader h1{
     color: #fff;
     font-family: 'Teko', sans-serif;
-    font-size: 4rem;
-    margin: 4%
+    font-size: 65px;
+    padding-left: 15%;
+    padding-top:5%;
+   
+}
+.innerheader {
+    display: flex;
+
+}
+
+.linkscontainer {
+    width:50%
+}
+
+
+
+.innerheader nav {
+    padding-top: 5%;
+    padding-left: 8%;
+    display: flex;
+
     
 }
+
+nav a {
+    padding-inline: 5%;
+}
+    
+
+
 
     
     
@@ -79,51 +113,15 @@ h1 {
 
 /* navigation links */
 
-.links a {
-    color: red;
-    text-decoration: none;
-    font-size: 15px;
-    background-color:red;
-    border: 1px solid black;
-    
-}
 
 
- .links .Home {
-     border:10px solid #fff;
-     background-color: #fff;
-    margin:0%
-    
-    
-}
 
-.links .About {
-    border:10px solid #fff;
-     background-color:#fff;
-    /* margin:% */
-}
-
-.links .Contact {
-    border:10px solid #fff;
-     background-color: #fff;
-    /* margin:% */
-}
-
-.links .Projects {
-    border:10px solid #fff;
-     background-color: #fff;
-    /* margin: % */
-}
-
-
-/* The left side*/
 .first {
+    height: 500px;
     width: 400px;
-    border: 10px solid red;
-    margin: 2%
+    margin: 1%;
+    padding-left:4%;
     
-    
-
 }
 
 
@@ -136,6 +134,7 @@ h2 {
     justify-content: center;
     position:relative;
     top: 250px;
+    
 }
 
     
@@ -151,26 +150,35 @@ h2 {
 /*bottom pictures*/
 
 .topgallery {
-    width: 400px;
+    height: 300px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-flow: row nowrap;
 }
 
 .topgallery img {
-    margin:30px;
-    border: 10px solid red;
+    width: 300px;
+    height: 300px;
+    margin:50px;
+    border: 10px solid black;
 }
 
 .bottomgallery {
-    width: 400px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 300px;
+    margin-top:10%;
+
     
 }
 
 .bottomgallery img {
-    margin:30px;
-    border: 10px solid red;
+    margin:50px;
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+
 }
 
 
@@ -182,6 +190,7 @@ h3 {
     position: relative;
     top: 60px;
     color: #fff
+    
 
 
 }
@@ -203,8 +212,8 @@ h3 {
 .lastbox {
     display: flex;
     justify-content: center;
-    background-color: red;
-    border: 90px solid red ;
+    background-color: black;
+    border: 90px solid black ;
     padding: 20px;
     color: #fff;
 }
